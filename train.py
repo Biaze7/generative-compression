@@ -12,7 +12,8 @@ from data import Data
 from model import Model
 from config import config_train, directories
 
-tf.logging.set_verbosity(tf.logging.ERROR)
+#tf.logging.set_verbosity(tf.logging.ERROR)
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 def train(config, args):
 
