@@ -69,7 +69,8 @@ class config_test(object):
 class directories(object):
     # train = 'data/ADE20K_paths_train.h5'
     # test = 'data/ADE20K_paths_test.h5'
-    train = 'data/sm_cityscapes_paths_train.h5'
+    #train = 'data/sm_cityscapes_paths_train.h5'
+    train = '/content/generative-compression/data/cityscapes_paths_train.h5'
     test = 'data/cityscapes_paths_test.h5'
     val = 'data/cityscapes_paths_val.h5'
     tensorboard = 'tensorboard'
