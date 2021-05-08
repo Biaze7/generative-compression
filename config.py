@@ -68,11 +68,14 @@ class config_test(object):
 
 class directories(object):
     #train = 'data/cityscapes_paths_train.h5'
-    train = '/content/generative-compression/data/cityscapes_paths_train.h5'
+    #train = '/content/generative-compression/data/cityscapes_paths_train.h5'
+    train = '/content/drive/MyDrive/datatrainnovo.h5'
     #test = 'data/cityscapes_paths_test.h5'
-    test = '/content/generative-compression/data/cityscapes_paths_test.h5'
+    #test = '/content/generative-compression/data/cityscapes_paths_test.h5'
+    test = '/content/drive/MyDrive/datatestnovo.h5'
     #val = 'data/cityscapes_paths_val.h5'
-    val = '/content/generative-compression/data/cityscapes_paths_val.h5'
+    #val = '/content/generative-compression/data/cityscapes_paths_val.h5'
+    val = '/content/drive/MyDrive/datavalnovo.h5'
     #tensorboard = 'tensorboard'
     tensorboard ='/content/generative-compression/tensorboard'
     #checkpoints = 'checkpoints'
